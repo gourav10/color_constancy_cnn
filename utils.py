@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Heet Sakaria
+"""
+
 import glob
 import numpy as np
 from scipy.io import loadmat

@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Gourav Beura
+"""
+
 import cv2
 import numpy as np
 

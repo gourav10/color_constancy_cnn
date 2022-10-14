@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 24 15:49:57 2018
-
-@author: phamh
+@author: Gourav Beura
 """
 import numpy as np
 import cv2
@@ -191,18 +189,3 @@ def generate_test_data(test_size, set_name, patch_size):
     pt.finish()
     
     return X_test, Y_test, name_test
-
-# train_size = 3000
-# test_size = 2420
-# patch_size = (32, 32)
-# set_name = 'Shi-Gehler'
-
-# X_train, Y_train, name_train = generate_train_data(train_size, set_name, patch_size)
-# np.save('X_train.npy', X_train) 
-# np.save('Y_train.npy', Y_train) 
-# np.save('name_train.npy', name_train)
-# #
-# X_test, Y_test, name_test = generate_test_data(test_size, set_name, patch_size)
-# np.save('X_test.npy', X_test) 
-# np.save('Y_test.npy', Y_test) 
-# np.save('name_test.npy', name_test)
